@@ -1,0 +1,12 @@
+# This file describes the network interfaces available on your system
+# For more information, see netplan(5).
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    eno1:
+     dhcp4: no
+     addresses: [155.98.47.84/29,192.168.253.100/24]
+     gateway4: 155.98.47.81
+     nameservers:
+       addresses: [8.8.8.8,8.8.4.4]

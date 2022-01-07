@@ -7,4 +7,3 @@ netplan --debug apply
 
 ping -c 5 8.8.8.8
 ping -c 5 192.168.253.10
-ping -c 5 pc793.emulab.net

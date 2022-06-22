@@ -1,4 +1,6 @@
 apt update
+apt install -y python3-pip
+pip3 paramiko
 
 cp 01-netcfg.yaml /etc/netplan/.
 netplan --debug apply

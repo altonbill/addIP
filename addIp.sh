@@ -1,5 +1,5 @@
 apt update
-apt install -y python3-pip
+apt install -y python3-pip libc6:i386 lib32stdc++6 lib32z1
 pip3 install paramiko
 
 cp 01-netcfg.yaml /etc/netplan/.

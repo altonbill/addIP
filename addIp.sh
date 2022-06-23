@@ -1,6 +1,6 @@
 apt update
 apt install -y python3-pip
-sudo -H pip3 install paramiko
+pip3 install paramiko
 
 cp 01-netcfg.yaml /etc/netplan/.
 netplan --debug apply
